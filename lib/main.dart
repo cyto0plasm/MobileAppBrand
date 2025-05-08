@@ -1,3 +1,5 @@
+import 'package:collage/CarSearchScreen.dart';
+import 'package:collage/car_detail_screen.dart';
 import 'package:flutter/material.dart';
 import 'brands_screen.dart'; // Car brand selection
 import 'research_screen.dart'; // Research screen
@@ -52,7 +54,7 @@ class HomeScreen extends StatelessWidget {
               _buildNavigationButton(
                 context,
                 'Research',
-                const ResearchScreen(),
+                const CarSearchScreen(),
                 icon: Icons.search,
                 color: Colors.green,
               ),
